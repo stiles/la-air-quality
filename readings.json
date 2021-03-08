@@ -1,9 +1,14 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 33,
+    "aqi": 30,
     "idx": 243,
     "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
@@ -12,11 +17,6 @@
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
         "logo": "USA-CAARB.png"
-      },
-      {
-        "url": "http://www.aqmd.gov/",
-        "name": "South Coast Air Quality Management District (AQMD)",
-        "logo": "USA-SouthCoastAQMD.png"
       },
       {
         "url": "https://waqi.info/",
@@ -31,25 +31,25 @@
       "name": "Los Angeles-North Main Street",
       "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
     },
-    "dominentpol": "o3",
+    "dominentpol": "pm25",
     "iaqi": {
       "co": {
-        "v": 2.8
+        "v": 2.6
       },
       "h": {
-        "v": 70
+        "v": 72.1
       },
       "no2": {
-        "v": 10.2
+        "v": 11.2
       },
       "o3": {
-        "v": 32.8
+        "v": 28.9
       },
       "p": {
-        "v": 1017.1
+        "v": 1017.4
       },
       "pm10": {
-        "v": 20
+        "v": 21
       },
       "pm25": {
         "v": 30
@@ -58,20 +58,20 @@
         "v": 1.5
       },
       "t": {
-        "v": 13.8
+        "v": 13.5
       },
       "w": {
-        "v": 4
+        "v": 2.8
       },
       "wg": {
         "v": 1
       }
     },
     "time": {
-      "s": "2021-03-07 16:00:00",
+      "s": "2021-03-07 17:00:00",
       "tz": "-08:00",
-      "v": 1615132800,
-      "iso": "2021-03-07T16:00:00-08:00"
+      "v": 1615136400,
+      "iso": "2021-03-07T17:00:00-08:00"
     },
     "forecast": {
       "daily": {
@@ -260,7 +260,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-08T10:01:32+09:00"
+      "sync": "2021-03-08T10:43:41+09:00"
     }
   }
 }
