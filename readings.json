@@ -1,14 +1,9 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 28,
+    "aqi": 30,
     "idx": 243,
     "attributions": [
-      {
-        "url": "http://www.arb.ca.gov/",
-        "name": "CARB - California Air Resources Board",
-        "logo": "USA-CAARB.png"
-      },
       {
         "url": "http://www.aqmd.gov/",
         "name": "South Coast Air Quality Management District (AQMD)",
@@ -17,6 +12,11 @@
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
       },
       {
         "url": "https://waqi.info/",
@@ -31,34 +31,34 @@
       "name": "Los Angeles-North Main Street",
       "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
     },
-    "dominentpol": "o3",
+    "dominentpol": "pm25",
     "iaqi": {
       "co": {
-        "v": 2.3
+        "v": 1.9
       },
       "h": {
-        "v": 78
+        "v": 78.5
       },
       "no2": {
         "v": 4.7
       },
       "o3": {
-        "v": 28.1
+        "v": 27.2
       },
       "p": {
-        "v": 1019.8
+        "v": 1020
       },
       "pm10": {
-        "v": 18
+        "v": 16
       },
       "pm25": {
-        "v": 21
+        "v": 30
       },
       "so2": {
         "v": 1.5
       },
       "t": {
-        "v": 11.6
+        "v": 11.4
       },
       "w": {
         "v": 0.8
@@ -68,10 +68,10 @@
       }
     },
     "time": {
-      "s": "2021-03-08 04:00:00",
+      "s": "2021-03-08 05:00:00",
       "tz": "-08:00",
-      "v": 1615176000,
-      "iso": "2021-03-08T04:00:00-08:00"
+      "v": 1615179600,
+      "iso": "2021-03-08T05:00:00-08:00"
     },
     "forecast": {
       "daily": {
@@ -236,7 +236,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-08T22:14:25+09:00"
+      "sync": "2021-03-08T22:43:41+09:00"
     }
   }
 }
