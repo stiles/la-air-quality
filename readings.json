@@ -1,9 +1,14 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 35,
+    "aqi": 32,
     "idx": 243,
     "attributions": [
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
       {
         "url": "http://www.aqmd.gov/",
         "name": "South Coast Air Quality Management District (AQMD)",
@@ -12,11 +17,6 @@
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
-      },
-      {
-        "url": "http://www.arb.ca.gov/",
-        "name": "CARB - California Air Resources Board",
-        "logo": "USA-CAARB.png"
       },
       {
         "url": "https://waqi.info/",
@@ -34,83 +34,89 @@
     "dominentpol": "o3",
     "iaqi": {
       "co": {
-        "v": 1.7
+        "v": 1.8
       },
       "h": {
-        "v": 79.4
+        "v": 70.4
       },
       "no2": {
-        "v": 3.8
+        "v": 6.5
       },
       "o3": {
-        "v": 35.2
+        "v": 32
       },
       "p": {
-        "v": 1018
+        "v": 1016.9
       },
       "pm10": {
         "v": 5
       },
       "pm25": {
-        "v": 21
+        "v": 30
       },
       "so2": {
         "v": 1.5
       },
       "t": {
-        "v": 8.9
+        "v": 11.4
       },
       "w": {
-        "v": 0.5
+        "v": 1.8
       },
       "wg": {
-        "v": 0.2
+        "v": 1
       }
     },
     "time": {
-      "s": "2021-03-10 13:00:00",
+      "s": "2021-03-10 14:00:00",
       "tz": "-08:00",
-      "v": 1615381200,
-      "iso": "2021-03-10T13:00:00-08:00"
+      "v": 1615384800,
+      "iso": "2021-03-10T14:00:00-08:00"
     },
     "forecast": {
       "daily": {
         "o3": [
           {
-            "avg": 12,
+            "avg": 13,
             "day": "2021-03-08",
             "max": 43,
             "min": 1
           },
           {
-            "avg": 24,
+            "avg": 23,
             "day": "2021-03-09",
-            "max": 50,
+            "max": 53,
             "min": 1
           },
           {
-            "avg": 25,
+            "avg": 22,
             "day": "2021-03-10",
             "max": 40,
-            "min": 12
+            "min": 3
           },
           {
-            "avg": 13,
+            "avg": 10,
             "day": "2021-03-11",
-            "max": 39,
+            "max": 30,
             "min": 1
           },
           {
-            "avg": 6,
+            "avg": 7,
             "day": "2021-03-12",
-            "max": 48,
+            "max": 41,
             "min": 1
           },
           {
-            "avg": 20,
+            "avg": 12,
             "day": "2021-03-13",
-            "max": 77,
+            "max": 76,
             "min": 1
+          },
+          {
+            "avg": 18,
+            "day": "2021-03-14",
+            "max": 72,
+            "min": 2
           }
         ],
         "pm10": [
@@ -153,40 +159,46 @@
         ],
         "pm25": [
           {
-            "avg": 70,
+            "avg": 65,
             "day": "2021-03-08",
-            "max": 120,
-            "min": 25
+            "max": 105,
+            "min": 23
           },
           {
-            "avg": 56,
+            "avg": 59,
             "day": "2021-03-09",
-            "max": 125,
-            "min": 13
+            "max": 123,
+            "min": 12
           },
           {
-            "avg": 23,
+            "avg": 30,
             "day": "2021-03-10",
-            "max": 48,
+            "max": 59,
             "min": 8
           },
           {
-            "avg": 55,
+            "avg": 57,
             "day": "2021-03-11",
-            "max": 81,
-            "min": 14
+            "max": 92,
+            "min": 22
           },
           {
-            "avg": 92,
+            "avg": 93,
             "day": "2021-03-12",
-            "max": 137,
-            "min": 38
+            "max": 121,
+            "min": 15
           },
           {
-            "avg": 90,
+            "avg": 111,
             "day": "2021-03-13",
-            "max": 129,
-            "min": 64
+            "max": 156,
+            "min": 49
+          },
+          {
+            "avg": 143,
+            "day": "2021-03-14",
+            "max": 157,
+            "min": 104
           }
         ],
         "uvi": [
@@ -242,7 +254,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-11T07:01:32+09:00"
+      "sync": "2021-03-11T07:44:15+09:00"
     }
   }
 }
