@@ -5,11 +5,6 @@
     "idx": 243,
     "attributions": [
       {
-        "url": "http://www.aqmd.gov/",
-        "name": "South Coast Air Quality Management District (AQMD)",
-        "logo": "USA-SouthCoastAQMD.png"
-      },
-      {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
       },
@@ -17,6 +12,11 @@
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
         "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
       },
       {
         "url": "https://waqi.info/",
@@ -37,7 +37,7 @@
         "v": 2
       },
       "h": {
-        "v": 58
+        "v": 56.3
       },
       "no2": {
         "v": 9.3
@@ -46,7 +46,7 @@
         "v": 31.2
       },
       "p": {
-        "v": 1017.5
+        "v": 1017.4
       },
       "pm10": {
         "v": 7
@@ -58,10 +58,10 @@
         "v": 1.5
       },
       "t": {
-        "v": 11.8
+        "v": 12.2
       },
       "w": {
-        "v": 0.5
+        "v": 1.2
       },
       "wg": {
         "v": 1
@@ -83,13 +83,13 @@
             "min": 1
           },
           {
-            "avg": 22,
+            "avg": 19,
             "day": "2021-03-10",
             "max": 40,
-            "min": 3
+            "min": 4
           },
           {
-            "avg": 10,
+            "avg": 12,
             "day": "2021-03-11",
             "max": 30,
             "min": 1
@@ -97,20 +97,26 @@
           {
             "avg": 7,
             "day": "2021-03-12",
-            "max": 41,
+            "max": 37,
             "min": 1
           },
           {
-            "avg": 12,
+            "avg": 13,
             "day": "2021-03-13",
-            "max": 76,
+            "max": 78,
             "min": 1
           },
           {
-            "avg": 18,
+            "avg": 15,
             "day": "2021-03-14",
-            "max": 72,
-            "min": 2
+            "max": 73,
+            "min": 1
+          },
+          {
+            "avg": 9,
+            "day": "2021-03-15",
+            "max": 31,
+            "min": 1
           }
         ],
         "pm10": [
@@ -155,38 +161,44 @@
           {
             "avg": 59,
             "day": "2021-03-09",
-            "max": 123,
-            "min": 12
+            "max": 121,
+            "min": 11
           },
           {
-            "avg": 30,
+            "avg": 32,
             "day": "2021-03-10",
             "max": 59,
             "min": 8
           },
           {
-            "avg": 57,
+            "avg": 52,
             "day": "2021-03-11",
-            "max": 92,
-            "min": 22
+            "max": 109,
+            "min": 13
           },
           {
-            "avg": 93,
+            "avg": 103,
             "day": "2021-03-12",
-            "max": 121,
-            "min": 15
+            "max": 139,
+            "min": 66
           },
           {
-            "avg": 111,
+            "avg": 120,
             "day": "2021-03-13",
-            "max": 156,
-            "min": 49
+            "max": 166,
+            "min": 65
           },
           {
             "avg": 143,
             "day": "2021-03-14",
-            "max": 157,
-            "min": 104
+            "max": 165,
+            "min": 89
+          },
+          {
+            "avg": 104,
+            "day": "2021-03-15",
+            "max": 160,
+            "min": 19
           }
         ],
         "uvi": [
@@ -242,7 +254,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-12T07:22:13+09:00"
+      "sync": "2021-03-12T07:41:35+09:00"
     }
   }
 }
