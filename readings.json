@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 13,
+    "aqi": 38,
     "idx": 243,
     "attributions": [
       {
@@ -31,19 +31,19 @@
       "name": "Los Angeles-North Main Street",
       "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
     },
-    "dominentpol": "pm25",
+    "dominentpol": "o3",
     "iaqi": {
       "co": {
-        "v": 2.4
+        "v": 2.8
       },
       "h": {
-        "v": 63.8
+        "v": 64.2
       },
       "no2": {
-        "v": 0.4
+        "v": 4.7
       },
       "o3": {
-        "v": 3.8
+        "v": 37.6
       },
       "p": {
         "v": 1018.3
@@ -58,7 +58,7 @@
         "v": 1.5
       },
       "t": {
-        "v": 9
+        "v": 8.8
       },
       "w": {
         "v": 2.2
@@ -260,7 +260,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-12T12:27:04+09:00"
+      "sync": "2021-03-12T12:41:37+09:00"
     }
   }
 }
