@@ -1,9 +1,14 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 46,
+    "aqi": 53,
     "idx": 243,
     "attributions": [
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
       {
         "url": "http://www.aqmd.gov/",
         "name": "South Coast Air Quality Management District (AQMD)",
@@ -12,11 +17,6 @@
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
-      },
-      {
-        "url": "http://www.arb.ca.gov/",
-        "name": "CARB - California Air Resources Board",
-        "logo": "USA-CAARB.png"
       },
       {
         "url": "https://waqi.info/",
@@ -34,28 +34,28 @@
     "dominentpol": "pm25",
     "iaqi": {
       "co": {
-        "v": 2.9
+        "v": 3.2
       },
       "h": {
-        "v": 77
+        "v": 78.6
       },
       "no2": {
-        "v": 10.2
+        "v": 11.2
       },
       "o3": {
-        "v": 23.3
+        "v": 21.6
       },
       "p": {
-        "v": 1025.2
+        "v": 1025.6
       },
       "pm10": {
-        "v": 35
+        "v": 28
       },
       "pm25": {
-        "v": 46
+        "v": 53
       },
       "t": {
-        "v": 10.5
+        "v": 10.1
       },
       "w": {
         "v": 0.3
@@ -65,20 +65,14 @@
       }
     },
     "time": {
-      "s": "2021-03-13 23:00:00",
+      "s": "2021-03-14 00:00:00",
       "tz": "-08:00",
-      "v": 1615676400,
-      "iso": "2021-03-13T23:00:00-08:00"
+      "v": 1615680000,
+      "iso": "2021-03-14T00:00:00-08:00"
     },
     "forecast": {
       "daily": {
         "o3": [
-          {
-            "avg": 13,
-            "day": "2021-03-11",
-            "max": 38,
-            "min": 1
-          },
           {
             "avg": 10,
             "day": "2021-03-12",
@@ -118,12 +112,6 @@
         ],
         "pm10": [
           {
-            "avg": 20,
-            "day": "2021-03-11",
-            "max": 50,
-            "min": 7
-          },
-          {
             "avg": 42,
             "day": "2021-03-12",
             "max": 58,
@@ -162,12 +150,6 @@
         ],
         "pm25": [
           {
-            "avg": 50,
-            "day": "2021-03-11",
-            "max": 105,
-            "min": 21
-          },
-          {
             "avg": 99,
             "day": "2021-03-12",
             "max": 151,
@@ -205,12 +187,6 @@
           }
         ],
         "uvi": [
-          {
-            "avg": 1,
-            "day": "2021-03-11",
-            "max": 4,
-            "min": 0
-          },
           {
             "avg": 1,
             "day": "2021-03-12",
@@ -257,7 +233,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-14T16:29:06+09:00"
+      "sync": "2021-03-14T17:23:21+09:00"
     }
   }
 }
