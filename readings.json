@@ -1,14 +1,9 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 46,
+    "aqi": 53,
     "idx": 243,
     "attributions": [
-      {
-        "url": "http://www.aqmd.gov/",
-        "name": "South Coast Air Quality Management District (AQMD)",
-        "logo": "USA-SouthCoastAQMD.png"
-      },
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
@@ -17,6 +12,11 @@
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
         "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
       },
       {
         "url": "https://waqi.info/",
@@ -34,41 +34,41 @@
     "dominentpol": "pm25",
     "iaqi": {
       "co": {
-        "v": 2.3
+        "v": 2.5
       },
       "h": {
-        "v": 53.3
+        "v": 51.5
       },
       "no2": {
-        "v": 3.8
+        "v": 5.6
       },
       "o3": {
         "v": 33.6
       },
       "p": {
-        "v": 1024.6
+        "v": 1024.3
       },
       "pm10": {
-        "v": 25
+        "v": 24
       },
       "pm25": {
-        "v": 46
+        "v": 53
       },
       "t": {
-        "v": 16.2
+        "v": 16.5
       },
       "w": {
-        "v": 1
+        "v": 2
       },
       "wg": {
         "v": 0.6
       }
     },
     "time": {
-      "s": "2021-03-14 10:00:00",
+      "s": "2021-03-14 11:00:00",
       "tz": "-07:00",
-      "v": 1615716000,
-      "iso": "2021-03-14T10:00:00-07:00"
+      "v": 1615719600,
+      "iso": "2021-03-14T11:00:00-07:00"
     },
     "forecast": {
       "daily": {
@@ -233,7 +233,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-15T04:14:13+09:00"
+      "sync": "2021-03-15T04:43:41+09:00"
     }
   }
 }
