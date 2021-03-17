@@ -5,11 +5,6 @@
     "idx": 243,
     "attributions": [
       {
-        "url": "http://www.aqmd.gov/",
-        "name": "South Coast Air Quality Management District (AQMD)",
-        "logo": "USA-SouthCoastAQMD.png"
-      },
-      {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
       },
@@ -17,6 +12,11 @@
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
         "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
       },
       {
         "url": "https://waqi.info/",
@@ -37,7 +37,7 @@
         "v": 2.9
       },
       "h": {
-        "v": 38.7
+        "v": 47
       },
       "no2": {
         "v": 13.9
@@ -46,7 +46,7 @@
         "v": 36.8
       },
       "p": {
-        "v": 1018.1
+        "v": 1018.4
       },
       "pm10": {
         "v": 24
@@ -55,10 +55,10 @@
         "v": 46
       },
       "t": {
-        "v": 19.2
+        "v": 17.2
       },
       "w": {
-        "v": 2.2
+        "v": 4.3
       },
       "wg": {
         "v": 1
@@ -118,40 +118,46 @@
         ],
         "pm10": [
           {
-            "avg": 10,
+            "avg": 9,
             "day": "2021-03-15",
             "max": 14,
             "min": 4
           },
           {
-            "avg": 27,
+            "avg": 34,
             "day": "2021-03-16",
-            "max": 43,
+            "max": 61,
             "min": 5
           },
           {
-            "avg": 49,
+            "avg": 63,
             "day": "2021-03-17",
-            "max": 73,
-            "min": 31
+            "max": 83,
+            "min": 51
           },
           {
-            "avg": 76,
+            "avg": 70,
             "day": "2021-03-18",
-            "max": 126,
-            "min": 33
+            "max": 107,
+            "min": 21
           },
           {
-            "avg": 55,
+            "avg": 48,
             "day": "2021-03-19",
-            "max": 109,
-            "min": 11
+            "max": 76,
+            "min": 4
           },
           {
-            "avg": 32,
+            "avg": 29,
             "day": "2021-03-20",
-            "max": 43,
-            "min": 14
+            "max": 51,
+            "min": 19
+          },
+          {
+            "avg": 27,
+            "day": "2021-03-21",
+            "max": 44,
+            "min": 12
           }
         ],
         "pm25": [
@@ -251,7 +257,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-18T07:43:51+09:00"
+      "sync": "2021-03-18T08:14:05+09:00"
     }
   }
 }
