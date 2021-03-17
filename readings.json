@@ -5,10 +5,6 @@
     "idx": 243,
     "attributions": [
       {
-        "url": "http://www.airnow.gov/",
-        "name": "Air Now - US EPA"
-      },
-      {
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
         "logo": "USA-CAARB.png"
@@ -17,6 +13,10 @@
         "url": "http://www.aqmd.gov/",
         "name": "South Coast Air Quality Management District (AQMD)",
         "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
       },
       {
         "url": "https://waqi.info/",
@@ -34,19 +34,19 @@
     "dominentpol": "pm25",
     "iaqi": {
       "co": {
-        "v": 3.6
+        "v": 5.3
       },
       "h": {
-        "v": 71.8
+        "v": 72.2
       },
       "no2": {
-        "v": 2.7
+        "v": 26.9
       },
       "o3": {
-        "v": 0.1
+        "v": 0.8
       },
       "p": {
-        "v": 1019.8
+        "v": 1019.7
       },
       "pm10": {
         "v": 21
@@ -55,7 +55,7 @@
         "v": 46
       },
       "t": {
-        "v": 6.2
+        "v": 5.6
       },
       "w": {
         "v": 1.9
@@ -233,7 +233,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-17T19:34:54+09:00"
+      "sync": "2021-03-17T20:31:45+09:00"
     }
   }
 }
