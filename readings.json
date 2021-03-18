@@ -1,9 +1,13 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 70,
+    "aqi": 38,
     "idx": 243,
     "attributions": [
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
       {
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
@@ -13,10 +17,6 @@
         "url": "http://www.aqmd.gov/",
         "name": "South Coast Air Quality Management District (AQMD)",
         "logo": "USA-SouthCoastAQMD.png"
-      },
-      {
-        "url": "http://www.airnow.gov/",
-        "name": "Air Now - US EPA"
       },
       {
         "url": "https://waqi.info/",
@@ -34,44 +34,44 @@
     "dominentpol": "pm25",
     "iaqi": {
       "co": {
-        "v": 2.4
+        "v": 1.7
       },
       "h": {
-        "v": 44.2
+        "v": 45.6
       },
       "no2": {
-        "v": 13
+        "v": 0.8
       },
       "o3": {
-        "v": 38.4
+        "v": 4.5
       },
       "p": {
-        "v": 1019.9
+        "v": 1019.4
       },
       "pm10": {
-        "v": 31
+        "v": 27
       },
       "pm25": {
-        "v": 70
+        "v": 38
       },
       "so2": {
         "v": 1.5
       },
       "t": {
-        "v": 19.8
+        "v": 19.4
       },
       "w": {
-        "v": 2.4
+        "v": 5.8
       },
       "wg": {
         "v": 1
       }
     },
     "time": {
-      "s": "2021-03-18 13:00:00",
+      "s": "2021-03-18 15:00:00",
       "tz": "-07:00",
-      "v": 1616072400,
-      "iso": "2021-03-18T13:00:00-07:00"
+      "v": 1616079600,
+      "iso": "2021-03-18T15:00:00-07:00"
     },
     "forecast": {
       "daily": {
@@ -153,40 +153,46 @@
         ],
         "pm25": [
           {
-            "avg": 82,
+            "avg": 91,
             "day": "2021-03-16",
-            "max": 151,
+            "max": 169,
             "min": 11
           },
           {
-            "avg": 149,
+            "avg": 161,
             "day": "2021-03-17",
-            "max": 174,
-            "min": 124
+            "max": 181,
+            "min": 141
           },
           {
-            "avg": 150,
+            "avg": 153,
             "day": "2021-03-18",
-            "max": 196,
-            "min": 63
+            "max": 191,
+            "min": 86
           },
           {
-            "avg": 111,
+            "avg": 105,
             "day": "2021-03-19",
-            "max": 167,
-            "min": 8
+            "max": 177,
+            "min": 18
           },
           {
-            "avg": 69,
+            "avg": 59,
             "day": "2021-03-20",
-            "max": 108,
-            "min": 56
+            "max": 80,
+            "min": 40
           },
           {
-            "avg": 69,
+            "avg": 106,
             "day": "2021-03-21",
-            "max": 92,
-            "min": 45
+            "max": 155,
+            "min": 67
+          },
+          {
+            "avg": 142,
+            "day": "2021-03-22",
+            "max": 158,
+            "min": 62
           }
         ],
         "uvi": [
@@ -227,16 +233,22 @@
             "min": 0
           },
           {
-            "avg": 2,
+            "avg": 1,
             "day": "2021-03-22",
             "max": 6,
+            "min": 0
+          },
+          {
+            "avg": 0,
+            "day": "2021-03-23",
+            "max": 0,
             "min": 0
           }
         ]
       }
     },
     "debug": {
-      "sync": "2021-03-19T06:44:13+09:00"
+      "sync": "2021-03-19T07:28:03+09:00"
     }
   }
 }
