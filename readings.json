@@ -1,9 +1,14 @@
 {
   "status": "ok",
   "data": {
-    "aqi": 72,
+    "aqi": 59,
     "idx": 243,
     "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
@@ -12,11 +17,6 @@
         "url": "http://www.arb.ca.gov/",
         "name": "CARB - California Air Resources Board",
         "logo": "USA-CAARB.png"
-      },
-      {
-        "url": "http://www.aqmd.gov/",
-        "name": "South Coast Air Quality Management District (AQMD)",
-        "logo": "USA-SouthCoastAQMD.png"
       },
       {
         "url": "https://waqi.info/",
@@ -37,41 +37,41 @@
         "v": 5.4
       },
       "h": {
-        "v": 44
+        "v": 47.2
       },
       "no2": {
-        "v": 2.4
+        "v": 1.4
       },
       "o3": {
-        "v": 3.6
+        "v": 4
       },
       "p": {
-        "v": 1019.7
+        "v": 1019.4
       },
       "pm10": {
-        "v": 44
+        "v": 29
       },
       "pm25": {
-        "v": 72
+        "v": 59
       },
       "so2": {
         "v": 1.5
       },
       "t": {
-        "v": 21
+        "v": 20.4
       },
       "w": {
-        "v": 4.6
+        "v": 2.7
       },
       "wg": {
         "v": 1
       }
     },
     "time": {
-      "s": "2021-03-19 14:00:00",
+      "s": "2021-03-19 15:00:00",
       "tz": "-07:00",
-      "v": 1616162400,
-      "iso": "2021-03-19T14:00:00-07:00"
+      "v": 1616166000,
+      "iso": "2021-03-19T15:00:00-07:00"
     },
     "forecast": {
       "daily": {
@@ -211,7 +211,7 @@
           {
             "avg": 1,
             "day": "2021-03-20",
-            "max": 6,
+            "max": 5,
             "min": 0
           },
           {
@@ -227,16 +227,22 @@
             "min": 0
           },
           {
-            "avg": 2,
+            "avg": 1,
             "day": "2021-03-23",
             "max": 6,
+            "min": 0
+          },
+          {
+            "avg": 0,
+            "day": "2021-03-24",
+            "max": 0,
             "min": 0
           }
         ]
       }
     },
     "debug": {
-      "sync": "2021-03-20T06:43:43+09:00"
+      "sync": "2021-03-20T07:25:00+09:00"
     }
   }
 }
