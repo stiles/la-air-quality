@@ -15,8 +15,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        timestamp=$(date '+%Y-%m-%d %H')
-        curl https://api.waqi.info/feed/los-angeles/?token=a44d4136cd7e57a2a186f2a04412a15ecc536171 | jq . > "data/reading_${timestamp}.json"
+        timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+        curl https://api.waqi.info/feed/los-angeles/?token=a44d4136cd7e57a2a186f2a04412a15ecc536171 | jq . > "data/reading_${timestamp}_UTC.json"
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
