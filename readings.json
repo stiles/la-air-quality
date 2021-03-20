@@ -5,6 +5,11 @@
     "idx": 243,
     "attributions": [
       {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
         "url": "http://www.aqmd.gov/",
         "name": "South Coast Air Quality Management District (AQMD)",
         "logo": "USA-SouthCoastAQMD.png"
@@ -12,11 +17,6 @@
       {
         "url": "http://www.airnow.gov/",
         "name": "Air Now - US EPA"
-      },
-      {
-        "url": "http://www.arb.ca.gov/",
-        "name": "CARB - California Air Resources Board",
-        "logo": "USA-CAARB.png"
       },
       {
         "url": "https://waqi.info/",
@@ -46,7 +46,7 @@
         "v": 21.6
       },
       "p": {
-        "v": 1020.4
+        "v": 1020.5
       },
       "pm10": {
         "v": 18
@@ -236,7 +236,7 @@
       }
     },
     "debug": {
-      "sync": "2021-03-20T23:29:44+09:00"
+      "sync": "2021-03-20T23:41:32+09:00"
     }
   }
 }
