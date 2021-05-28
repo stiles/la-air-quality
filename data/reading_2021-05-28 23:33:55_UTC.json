@@ -1,0 +1,212 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 91,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 3
+      },
+      "h": {
+        "v": 55
+      },
+      "no2": {
+        "v": 0.8
+      },
+      "o3": {
+        "v": 5
+      },
+      "p": {
+        "v": 1014.2
+      },
+      "pm10": {
+        "v": 41
+      },
+      "pm25": {
+        "v": 91
+      },
+      "so2": {
+        "v": 1.5
+      },
+      "t": {
+        "v": 21.8
+      },
+      "w": {
+        "v": 4.2
+      },
+      "wg": {
+        "v": 1
+      }
+    },
+    "time": {
+      "s": "2021-05-28 15:00:00",
+      "tz": "-07:00",
+      "v": 1622214000,
+      "iso": "2021-05-28T15:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 25,
+            "day": "2021-05-26",
+            "max": 80,
+            "min": 1
+          },
+          {
+            "avg": 21,
+            "day": "2021-05-27",
+            "max": 89,
+            "min": 5
+          },
+          {
+            "avg": 20,
+            "day": "2021-05-28",
+            "max": 114,
+            "min": 3
+          },
+          {
+            "avg": 21,
+            "day": "2021-05-29",
+            "max": 80,
+            "min": 4
+          },
+          {
+            "avg": 21,
+            "day": "2021-05-30",
+            "max": 80,
+            "min": 6
+          },
+          {
+            "avg": 16,
+            "day": "2021-05-31",
+            "max": 73,
+            "min": 6
+          },
+          {
+            "avg": 18,
+            "day": "2021-06-01",
+            "max": 103,
+            "min": 1
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 30,
+            "day": "2021-05-26",
+            "max": 35,
+            "min": 17
+          },
+          {
+            "avg": 37,
+            "day": "2021-05-27",
+            "max": 47,
+            "min": 26
+          },
+          {
+            "avg": 37,
+            "day": "2021-05-28",
+            "max": 56,
+            "min": 21
+          },
+          {
+            "avg": 31,
+            "day": "2021-05-29",
+            "max": 40,
+            "min": 27
+          },
+          {
+            "avg": 28,
+            "day": "2021-05-30",
+            "max": 33,
+            "min": 23
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 61,
+            "day": "2021-05-26",
+            "max": 88,
+            "min": 44
+          },
+          {
+            "avg": 65,
+            "day": "2021-05-27",
+            "max": 89,
+            "min": 46
+          },
+          {
+            "avg": 73,
+            "day": "2021-05-28",
+            "max": 129,
+            "min": 58
+          },
+          {
+            "avg": 65,
+            "day": "2021-05-29",
+            "max": 73,
+            "min": 59
+          },
+          {
+            "avg": 67,
+            "day": "2021-05-30",
+            "max": 90,
+            "min": 50
+          },
+          {
+            "avg": 57,
+            "day": "2021-05-31",
+            "max": 74,
+            "min": 48
+          },
+          {
+            "avg": 90,
+            "day": "2021-06-01",
+            "max": 142,
+            "min": 54
+          }
+        ],
+        "uvi": [
+          {
+            "avg": 3,
+            "day": "2021-05-26",
+            "max": 9,
+            "min": 0
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2021-05-29T07:54:35+09:00"
+    }
+  }
+}
