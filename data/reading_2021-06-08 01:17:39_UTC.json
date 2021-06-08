@@ -1,0 +1,81 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 32,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
+    },
+    "dominentpol": "o3",
+    "iaqi": {
+      "co": {
+        "v": 1.9
+      },
+      "h": {
+        "v": 64
+      },
+      "no2": {
+        "v": 5.6
+      },
+      "o3": {
+        "v": 32
+      },
+      "p": {
+        "v": 1012.9
+      },
+      "pm10": {
+        "v": 10
+      },
+      "pm25": {
+        "v": 25
+      },
+      "so2": {
+        "v": 1.5
+      },
+      "t": {
+        "v": 18.3
+      },
+      "w": {
+        "v": 2
+      },
+      "wg": {
+        "v": 1
+      }
+    },
+    "time": {
+      "s": "2021-06-07 16:00:00",
+      "tz": "-07:00",
+      "v": 1623081600,
+      "iso": "2021-06-07T16:00:00-07:00"
+    },
+    "forecast": {},
+    "debug": {
+      "sync": "2021-06-08T10:05:59+09:00"
+    }
+  }
+}
