@@ -1,0 +1,198 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 78,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 6.3
+      },
+      "h": {
+        "v": 32.7
+      },
+      "no2": {
+        "v": 3.9
+      },
+      "o3": {
+        "v": 1.5
+      },
+      "p": {
+        "v": 1011.7
+      },
+      "pm10": {
+        "v": 48
+      },
+      "pm25": {
+        "v": 78
+      },
+      "so2": {
+        "v": 1.5
+      },
+      "t": {
+        "v": 33.4
+      },
+      "w": {
+        "v": 3.4
+      },
+      "wg": {
+        "v": 1
+      }
+    },
+    "time": {
+      "s": "2021-06-15 13:00:00",
+      "tz": "-07:00",
+      "v": 1623762000,
+      "iso": "2021-06-15T13:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 15,
+            "day": "2021-06-13",
+            "max": 57,
+            "min": 1
+          },
+          {
+            "avg": 13,
+            "day": "2021-06-14",
+            "max": 77,
+            "min": 1
+          },
+          {
+            "avg": 16,
+            "day": "2021-06-15",
+            "max": 75,
+            "min": 1
+          },
+          {
+            "avg": 12,
+            "day": "2021-06-16",
+            "max": 61,
+            "min": 1
+          },
+          {
+            "avg": 13,
+            "day": "2021-06-17",
+            "max": 73,
+            "min": 1
+          },
+          {
+            "avg": 15,
+            "day": "2021-06-18",
+            "max": 80,
+            "min": 1
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 22,
+            "day": "2021-06-13",
+            "max": 36,
+            "min": 15
+          },
+          {
+            "avg": 25,
+            "day": "2021-06-14",
+            "max": 60,
+            "min": 12
+          },
+          {
+            "avg": 27,
+            "day": "2021-06-15",
+            "max": 54,
+            "min": 12
+          },
+          {
+            "avg": 30,
+            "day": "2021-06-16",
+            "max": 47,
+            "min": 23
+          },
+          {
+            "avg": 40,
+            "day": "2021-06-17",
+            "max": 61,
+            "min": 29
+          },
+          {
+            "avg": 49,
+            "day": "2021-06-18",
+            "max": 67,
+            "min": 21
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 58,
+            "day": "2021-06-13",
+            "max": 97,
+            "min": 43
+          },
+          {
+            "avg": 60,
+            "day": "2021-06-14",
+            "max": 156,
+            "min": 34
+          },
+          {
+            "avg": 64,
+            "day": "2021-06-15",
+            "max": 140,
+            "min": 43
+          },
+          {
+            "avg": 64,
+            "day": "2021-06-16",
+            "max": 119,
+            "min": 55
+          },
+          {
+            "avg": 80,
+            "day": "2021-06-17",
+            "max": 154,
+            "min": 63
+          },
+          {
+            "avg": 99,
+            "day": "2021-06-18",
+            "max": 160,
+            "min": 55
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2021-06-16T05:44:10+09:00"
+    }
+  }
+}
