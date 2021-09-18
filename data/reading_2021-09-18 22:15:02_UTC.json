@@ -1,0 +1,260 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 46,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street"
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 2.7
+      },
+      "h": {
+        "v": 50.5
+      },
+      "no2": {
+        "v": 5.6
+      },
+      "o3": {
+        "v": 43.2
+      },
+      "p": {
+        "v": 1016.6
+      },
+      "pm10": {
+        "v": 28
+      },
+      "pm25": {
+        "v": 46
+      },
+      "so2": {
+        "v": 1.5
+      },
+      "t": {
+        "v": 24.2
+      },
+      "w": {
+        "v": 3.3
+      },
+      "wg": {
+        "v": 1
+      }
+    },
+    "time": {
+      "s": "2021-09-18 13:00:00",
+      "tz": "-07:00",
+      "v": 1631970000,
+      "iso": "2021-09-18T13:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 6,
+            "day": "2021-09-16",
+            "max": 53,
+            "min": 1
+          },
+          {
+            "avg": 7,
+            "day": "2021-09-17",
+            "max": 53,
+            "min": 1
+          },
+          {
+            "avg": 8,
+            "day": "2021-09-18",
+            "max": 40,
+            "min": 1
+          },
+          {
+            "avg": 9,
+            "day": "2021-09-19",
+            "max": 58,
+            "min": 1
+          },
+          {
+            "avg": 12,
+            "day": "2021-09-20",
+            "max": 71,
+            "min": 1
+          },
+          {
+            "avg": 7,
+            "day": "2021-09-21",
+            "max": 67,
+            "min": 1
+          },
+          {
+            "avg": 11,
+            "day": "2021-09-22",
+            "max": 54,
+            "min": 1
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 43,
+            "day": "2021-09-16",
+            "max": 61,
+            "min": 21
+          },
+          {
+            "avg": 41,
+            "day": "2021-09-17",
+            "max": 67,
+            "min": 20
+          },
+          {
+            "avg": 30,
+            "day": "2021-09-18",
+            "max": 48,
+            "min": 11
+          },
+          {
+            "avg": 31,
+            "day": "2021-09-19",
+            "max": 54,
+            "min": 17
+          },
+          {
+            "avg": 43,
+            "day": "2021-09-20",
+            "max": 66,
+            "min": 32
+          },
+          {
+            "avg": 53,
+            "day": "2021-09-21",
+            "max": 66,
+            "min": 39
+          },
+          {
+            "avg": 58,
+            "day": "2021-09-22",
+            "max": 66,
+            "min": 19
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 86,
+            "day": "2021-09-16",
+            "max": 140,
+            "min": 52
+          },
+          {
+            "avg": 88,
+            "day": "2021-09-17",
+            "max": 158,
+            "min": 53
+          },
+          {
+            "avg": 68,
+            "day": "2021-09-18",
+            "max": 112,
+            "min": 30
+          },
+          {
+            "avg": 73,
+            "day": "2021-09-19",
+            "max": 137,
+            "min": 49
+          },
+          {
+            "avg": 98,
+            "day": "2021-09-20",
+            "max": 162,
+            "min": 69
+          },
+          {
+            "avg": 108,
+            "day": "2021-09-21",
+            "max": 156,
+            "min": 86
+          },
+          {
+            "avg": 130,
+            "day": "2021-09-22",
+            "max": 156,
+            "min": 58
+          }
+        ],
+        "uvi": [
+          {
+            "avg": 1,
+            "day": "2021-09-16",
+            "max": 8,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2021-09-17",
+            "max": 7,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2021-09-18",
+            "max": 7,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2021-09-19",
+            "max": 8,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2021-09-20",
+            "max": 7,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2021-09-21",
+            "max": 7,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2021-09-22",
+            "max": 7,
+            "min": 0
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2021-09-19T07:03:37+09:00"
+    }
+  }
+}
