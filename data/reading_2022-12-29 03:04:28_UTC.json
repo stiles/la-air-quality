@@ -1,0 +1,199 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 20,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 2.3
+      },
+      "h": {
+        "v": 92
+      },
+      "no2": {
+        "v": 18.5
+      },
+      "o3": {
+        "v": 18.4
+      },
+      "p": {
+        "v": 1011.1
+      },
+      "pm10": {
+        "v": 15
+      },
+      "pm25": {
+        "v": 20
+      },
+      "so2": {
+        "v": 0.2
+      },
+      "t": {
+        "v": 11.1
+      },
+      "w": {
+        "v": 0.1
+      },
+      "wg": {
+        "v": 0.1
+      }
+    },
+    "time": {
+      "s": "2022-12-28 18:00:00",
+      "tz": "-08:00",
+      "v": 1672250400,
+      "iso": "2022-12-28T18:00:00-08:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 3,
+            "day": "2022-12-26",
+            "max": 8,
+            "min": 1
+          },
+          {
+            "avg": 1,
+            "day": "2022-12-27",
+            "max": 3,
+            "min": 1
+          },
+          {
+            "avg": 3,
+            "day": "2022-12-28",
+            "max": 14,
+            "min": 1
+          },
+          {
+            "avg": 1,
+            "day": "2022-12-29",
+            "max": 5,
+            "min": 1
+          },
+          {
+            "avg": 2,
+            "day": "2022-12-30",
+            "max": 5,
+            "min": 1
+          },
+          {
+            "avg": 1,
+            "day": "2022-12-31",
+            "max": 6,
+            "min": 1
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 76,
+            "day": "2022-12-26",
+            "max": 139,
+            "min": 21
+          },
+          {
+            "avg": 63,
+            "day": "2022-12-27",
+            "max": 139,
+            "min": 30
+          },
+          {
+            "avg": 57,
+            "day": "2022-12-28",
+            "max": 103,
+            "min": 16
+          },
+          {
+            "avg": 47,
+            "day": "2022-12-29",
+            "max": 70,
+            "min": 17
+          },
+          {
+            "avg": 30,
+            "day": "2022-12-30",
+            "max": 47,
+            "min": 18
+          },
+          {
+            "avg": 25,
+            "day": "2022-12-31",
+            "max": 31,
+            "min": 6
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 136,
+            "day": "2022-12-26",
+            "max": 229,
+            "min": 51
+          },
+          {
+            "avg": 140,
+            "day": "2022-12-27",
+            "max": 234,
+            "min": 82
+          },
+          {
+            "avg": 119,
+            "day": "2022-12-28",
+            "max": 185,
+            "min": 47
+          },
+          {
+            "avg": 107,
+            "day": "2022-12-29",
+            "max": 161,
+            "min": 47
+          },
+          {
+            "avg": 76,
+            "day": "2022-12-30",
+            "max": 103,
+            "min": 55
+          },
+          {
+            "avg": 69,
+            "day": "2022-12-31",
+            "max": 80,
+            "min": 17
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2022-12-29T12:03:05+09:00"
+    }
+  }
+}
