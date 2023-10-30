@@ -1,0 +1,127 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 38,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 7.8
+      },
+      "h": {
+        "v": 27
+      },
+      "no2": {
+        "v": 28.6
+      },
+      "o3": {
+        "v": 0.8
+      },
+      "p": {
+        "v": 1018.6
+      },
+      "pm10": {
+        "v": 30
+      },
+      "pm25": {
+        "v": 38
+      },
+      "so2": {
+        "v": 0.5
+      },
+      "t": {
+        "v": 11.1
+      },
+      "w": {
+        "v": 0.1
+      },
+      "wg": {
+        "v": 0.3
+      }
+    },
+    "time": {
+      "s": "2023-10-30 05:00:00",
+      "tz": "-07:00",
+      "v": 1698642000,
+      "iso": "2023-10-30T05:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 9,
+            "day": "2023-10-28",
+            "max": 23,
+            "min": 1
+          },
+          {
+            "avg": 12,
+            "day": "2023-10-29",
+            "max": 21,
+            "min": 3
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 15,
+            "day": "2023-10-28",
+            "max": 53,
+            "min": 4
+          },
+          {
+            "avg": 18,
+            "day": "2023-10-29",
+            "max": 23,
+            "min": 5
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 40,
+            "day": "2023-10-28",
+            "max": 110,
+            "min": 9
+          },
+          {
+            "avg": 37,
+            "day": "2023-10-29",
+            "max": 56,
+            "min": 6
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2023-10-30T22:41:42+09:00"
+    }
+  }
+}
