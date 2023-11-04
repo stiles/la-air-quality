@@ -1,0 +1,235 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 86,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 13.4
+      },
+      "h": {
+        "v": 60
+      },
+      "no2": {
+        "v": 54.7
+      },
+      "o3": {
+        "v": 0.8
+      },
+      "p": {
+        "v": 1018.1
+      },
+      "pm10": {
+        "v": 51
+      },
+      "pm25": {
+        "v": 86
+      },
+      "so2": {
+        "v": 0.6
+      },
+      "t": {
+        "v": 14.4
+      },
+      "w": {
+        "v": 0.3
+      },
+      "wg": {
+        "v": 0.7
+      }
+    },
+    "time": {
+      "s": "2023-11-03 22:00:00",
+      "tz": "-07:00",
+      "v": 1699048800,
+      "iso": "2023-11-03T22:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 4,
+            "day": "2023-11-01",
+            "max": 29,
+            "min": 1
+          },
+          {
+            "avg": 6,
+            "day": "2023-11-02",
+            "max": 44,
+            "min": 1
+          },
+          {
+            "avg": 9,
+            "day": "2023-11-03",
+            "max": 69,
+            "min": 1
+          },
+          {
+            "avg": 14,
+            "day": "2023-11-04",
+            "max": 85,
+            "min": 1
+          },
+          {
+            "avg": 15,
+            "day": "2023-11-05",
+            "max": 75,
+            "min": 3
+          },
+          {
+            "avg": 4,
+            "day": "2023-11-06",
+            "max": 52,
+            "min": 1
+          },
+          {
+            "avg": 4,
+            "day": "2023-11-07",
+            "max": 20,
+            "min": 1
+          },
+          {
+            "avg": 6,
+            "day": "2023-11-08",
+            "max": 21,
+            "min": 3
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 40,
+            "day": "2023-11-01",
+            "max": 56,
+            "min": 21
+          },
+          {
+            "avg": 58,
+            "day": "2023-11-02",
+            "max": 88,
+            "min": 30
+          },
+          {
+            "avg": 111,
+            "day": "2023-11-03",
+            "max": 178,
+            "min": 63
+          },
+          {
+            "avg": 152,
+            "day": "2023-11-04",
+            "max": 184,
+            "min": 120
+          },
+          {
+            "avg": 166,
+            "day": "2023-11-05",
+            "max": 185,
+            "min": 122
+          },
+          {
+            "avg": 91,
+            "day": "2023-11-06",
+            "max": 182,
+            "min": 11
+          },
+          {
+            "avg": 35,
+            "day": "2023-11-07",
+            "max": 56,
+            "min": 8
+          },
+          {
+            "avg": 34,
+            "day": "2023-11-08",
+            "max": 47,
+            "min": 18
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 70,
+            "day": "2023-11-01",
+            "max": 99,
+            "min": 34
+          },
+          {
+            "avg": 113,
+            "day": "2023-11-02",
+            "max": 171,
+            "min": 53
+          },
+          {
+            "avg": 217,
+            "day": "2023-11-03",
+            "max": 318,
+            "min": 150
+          },
+          {
+            "avg": 278,
+            "day": "2023-11-04",
+            "max": 341,
+            "min": 214
+          },
+          {
+            "avg": 311,
+            "day": "2023-11-05",
+            "max": 347,
+            "min": 233
+          },
+          {
+            "avg": 172,
+            "day": "2023-11-06",
+            "max": 341,
+            "min": 28
+          },
+          {
+            "avg": 73,
+            "day": "2023-11-07",
+            "max": 122,
+            "min": 19
+          },
+          {
+            "avg": 67,
+            "day": "2023-11-08",
+            "max": 90,
+            "min": 35
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2023-11-04T15:18:38+09:00"
+    }
+  }
+}
