@@ -1,0 +1,232 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 46,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 2.3
+      },
+      "h": {
+        "v": 61
+      },
+      "no2": {
+        "v": 4.4
+      },
+      "o3": {
+        "v": 29.6
+      },
+      "p": {
+        "v": 1033.8
+      },
+      "pm10": {
+        "v": 20
+      },
+      "pm25": {
+        "v": 46
+      },
+      "so2": {
+        "v": 0.2
+      },
+      "t": {
+        "v": 22.7
+      },
+      "wg": {
+        "v": 0.5
+      }
+    },
+    "time": {
+      "s": "2024-06-25 17:00:00",
+      "tz": "-07:00",
+      "v": 1719334800,
+      "iso": "2024-06-25T17:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 16,
+            "day": "2024-06-23",
+            "max": 50,
+            "min": 2
+          },
+          {
+            "avg": 14,
+            "day": "2024-06-24",
+            "max": 66,
+            "min": 1
+          },
+          {
+            "avg": 12,
+            "day": "2024-06-25",
+            "max": 50,
+            "min": 1
+          },
+          {
+            "avg": 13,
+            "day": "2024-06-26",
+            "max": 57,
+            "min": 1
+          },
+          {
+            "avg": 14,
+            "day": "2024-06-27",
+            "max": 55,
+            "min": 1
+          },
+          {
+            "avg": 14,
+            "day": "2024-06-28",
+            "max": 40,
+            "min": 1
+          },
+          {
+            "avg": 14,
+            "day": "2024-06-29",
+            "max": 54,
+            "min": 1
+          },
+          {
+            "avg": 13,
+            "day": "2024-06-30",
+            "max": 61,
+            "min": 1
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 26,
+            "day": "2024-06-23",
+            "max": 45,
+            "min": 11
+          },
+          {
+            "avg": 30,
+            "day": "2024-06-24",
+            "max": 61,
+            "min": 17
+          },
+          {
+            "avg": 27,
+            "day": "2024-06-25",
+            "max": 43,
+            "min": 17
+          },
+          {
+            "avg": 34,
+            "day": "2024-06-26",
+            "max": 57,
+            "min": 21
+          },
+          {
+            "avg": 34,
+            "day": "2024-06-27",
+            "max": 54,
+            "min": 22
+          },
+          {
+            "avg": 31,
+            "day": "2024-06-28",
+            "max": 36,
+            "min": 23
+          },
+          {
+            "avg": 27,
+            "day": "2024-06-29",
+            "max": 56,
+            "min": 10
+          },
+          {
+            "avg": 26,
+            "day": "2024-06-30",
+            "max": 45,
+            "min": 20
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 63,
+            "day": "2024-06-23",
+            "max": 105,
+            "min": 35
+          },
+          {
+            "avg": 73,
+            "day": "2024-06-24",
+            "max": 156,
+            "min": 50
+          },
+          {
+            "avg": 62,
+            "day": "2024-06-25",
+            "max": 103,
+            "min": 49
+          },
+          {
+            "avg": 73,
+            "day": "2024-06-26",
+            "max": 133,
+            "min": 52
+          },
+          {
+            "avg": 73,
+            "day": "2024-06-27",
+            "max": 121,
+            "min": 56
+          },
+          {
+            "avg": 68,
+            "day": "2024-06-28",
+            "max": 75,
+            "min": 60
+          },
+          {
+            "avg": 59,
+            "day": "2024-06-29",
+            "max": 131,
+            "min": 23
+          },
+          {
+            "avg": 59,
+            "day": "2024-06-30",
+            "max": 108,
+            "min": 48
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2024-06-26T11:11:32+09:00"
+    }
+  }
+}
