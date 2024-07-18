@@ -1,0 +1,199 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 58,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 2.3
+      },
+      "h": {
+        "v": 82
+      },
+      "no2": {
+        "v": 12.4
+      },
+      "o3": {
+        "v": 13.6
+      },
+      "p": {
+        "v": 1034.7
+      },
+      "pm10": {
+        "v": 20
+      },
+      "pm25": {
+        "v": 58
+      },
+      "so2": {
+        "v": 0.2
+      },
+      "t": {
+        "v": 18.3
+      },
+      "w": {
+        "v": 0.1
+      },
+      "wg": {
+        "v": 0.1
+      }
+    },
+    "time": {
+      "s": "2024-07-18 04:00:00",
+      "tz": "-07:00",
+      "v": 1721275200,
+      "iso": "2024-07-18T04:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "o3": [
+          {
+            "avg": 12,
+            "day": "2024-07-16",
+            "max": 53,
+            "min": 1
+          },
+          {
+            "avg": 16,
+            "day": "2024-07-17",
+            "max": 65,
+            "min": 2
+          },
+          {
+            "avg": 14,
+            "day": "2024-07-18",
+            "max": 59,
+            "min": 1
+          },
+          {
+            "avg": 17,
+            "day": "2024-07-19",
+            "max": 76,
+            "min": 1
+          },
+          {
+            "avg": 22,
+            "day": "2024-07-20",
+            "max": 59,
+            "min": 1
+          },
+          {
+            "avg": 18,
+            "day": "2024-07-21",
+            "max": 58,
+            "min": 2
+          }
+        ],
+        "pm10": [
+          {
+            "avg": 20,
+            "day": "2024-07-16",
+            "max": 46,
+            "min": 10
+          },
+          {
+            "avg": 26,
+            "day": "2024-07-17",
+            "max": 59,
+            "min": 12
+          },
+          {
+            "avg": 26,
+            "day": "2024-07-18",
+            "max": 49,
+            "min": 17
+          },
+          {
+            "avg": 35,
+            "day": "2024-07-19",
+            "max": 62,
+            "min": 26
+          },
+          {
+            "avg": 30,
+            "day": "2024-07-20",
+            "max": 52,
+            "min": 23
+          },
+          {
+            "avg": 28,
+            "day": "2024-07-21",
+            "max": 41,
+            "min": 13
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 48,
+            "day": "2024-07-16",
+            "max": 113,
+            "min": 25
+          },
+          {
+            "avg": 66,
+            "day": "2024-07-17",
+            "max": 153,
+            "min": 32
+          },
+          {
+            "avg": 62,
+            "day": "2024-07-18",
+            "max": 112,
+            "min": 48
+          },
+          {
+            "avg": 77,
+            "day": "2024-07-19",
+            "max": 155,
+            "min": 55
+          },
+          {
+            "avg": 74,
+            "day": "2024-07-20",
+            "max": 126,
+            "min": 65
+          },
+          {
+            "avg": 70,
+            "day": "2024-07-21",
+            "max": 99,
+            "min": 41
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2024-07-18T22:01:57+09:00"
+    }
+  }
+}
