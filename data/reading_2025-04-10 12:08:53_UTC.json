@@ -1,0 +1,129 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 59,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 6.7
+      },
+      "h": {
+        "v": 64.8
+      },
+      "no2": {
+        "v": 34.7
+      },
+      "o3": {
+        "v": 0.8
+      },
+      "p": {
+        "v": 1018.8
+      },
+      "pm10": {
+        "v": 23
+      },
+      "pm25": {
+        "v": 59
+      },
+      "so2": {
+        "v": 0.3
+      },
+      "t": {
+        "v": 14.2
+      },
+      "w": {
+        "v": 0.1
+      },
+      "wg": {
+        "v": 0.4
+      }
+    },
+    "time": {
+      "s": "2025-04-10 03:00:00",
+      "tz": "-07:00",
+      "v": 1744254000,
+      "iso": "2025-04-10T03:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "uvi": [
+          {
+            "avg": 1,
+            "day": "2025-04-08",
+            "max": 9,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2025-04-09",
+            "max": 9,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2025-04-10",
+            "max": 9,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2025-04-11",
+            "max": 9,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2025-04-12",
+            "max": 9,
+            "min": 0
+          },
+          {
+            "avg": 1,
+            "day": "2025-04-13",
+            "max": 9,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2025-04-14",
+            "max": 8,
+            "min": 0
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2025-04-10T21:01:52+09:00"
+    }
+  }
+}
