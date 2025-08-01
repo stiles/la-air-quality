@@ -1,0 +1,229 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 53,
+    "idx": 243,
+    "attributions": [
+      {
+        "url": "http://www.aqmd.gov/",
+        "name": "South Coast Air Quality Management District (AQMD)",
+        "logo": "USA-SouthCoastAQMD.png"
+      },
+      {
+        "url": "http://www.airnow.gov/",
+        "name": "Air Now - US EPA"
+      },
+      {
+        "url": "http://www.arb.ca.gov/",
+        "name": "CARB - California Air Resources Board",
+        "logo": "USA-CAARB.png"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        34.06653,
+        -118.22676
+      ],
+      "name": "Los Angeles-North Main Street",
+      "url": "https://aqicn.org/city/losangeles/los-angeles-north-main-street",
+      "location": ""
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 2.3
+      },
+      "h": {
+        "v": 80.4
+      },
+      "no2": {
+        "v": 12.6
+      },
+      "o3": {
+        "v": 13.6
+      },
+      "p": {
+        "v": 1017.9
+      },
+      "pm10": {
+        "v": 30
+      },
+      "pm25": {
+        "v": 53
+      },
+      "so2": {
+        "v": 0.2
+      },
+      "t": {
+        "v": 16.1
+      },
+      "w": {
+        "v": 0.1
+      },
+      "wg": {
+        "v": 0.8
+      }
+    },
+    "time": {
+      "s": "2025-08-01 08:00:00",
+      "tz": "-07:00",
+      "v": 1754035200,
+      "iso": "2025-08-01T08:00:00-07:00"
+    },
+    "forecast": {
+      "daily": {
+        "pm10": [
+          {
+            "avg": 30,
+            "day": "2025-07-30",
+            "max": 55,
+            "min": 21
+          },
+          {
+            "avg": 31,
+            "day": "2025-07-31",
+            "max": 63,
+            "min": 25
+          },
+          {
+            "avg": 30,
+            "day": "2025-08-01",
+            "max": 53,
+            "min": 23
+          },
+          {
+            "avg": 30,
+            "day": "2025-08-02",
+            "max": 51,
+            "min": 23
+          },
+          {
+            "avg": 30,
+            "day": "2025-08-03",
+            "max": 46,
+            "min": 27
+          },
+          {
+            "avg": 38,
+            "day": "2025-08-04",
+            "max": 62,
+            "min": 29
+          },
+          {
+            "avg": 41,
+            "day": "2025-08-05",
+            "max": 55,
+            "min": 31
+          },
+          {
+            "avg": 52,
+            "day": "2025-08-06",
+            "max": 80,
+            "min": 32
+          }
+        ],
+        "pm25": [
+          {
+            "avg": 59,
+            "day": "2025-07-30",
+            "max": 121,
+            "min": 43
+          },
+          {
+            "avg": 62,
+            "day": "2025-07-31",
+            "max": 148,
+            "min": 51
+          },
+          {
+            "avg": 60,
+            "day": "2025-08-01",
+            "max": 118,
+            "min": 52
+          },
+          {
+            "avg": 59,
+            "day": "2025-08-02",
+            "max": 105,
+            "min": 52
+          },
+          {
+            "avg": 58,
+            "day": "2025-08-03",
+            "max": 96,
+            "min": 54
+          },
+          {
+            "avg": 71,
+            "day": "2025-08-04",
+            "max": 149,
+            "min": 57
+          },
+          {
+            "avg": 79,
+            "day": "2025-08-05",
+            "max": 118,
+            "min": 63
+          },
+          {
+            "avg": 93,
+            "day": "2025-08-06",
+            "max": 165,
+            "min": 74
+          }
+        ],
+        "uvi": [
+          {
+            "avg": 2,
+            "day": "2025-07-30",
+            "max": 10,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2025-07-31",
+            "max": 11,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2025-08-01",
+            "max": 11,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2025-08-02",
+            "max": 11,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2025-08-03",
+            "max": 11,
+            "min": 0
+          },
+          {
+            "avg": 2,
+            "day": "2025-08-04",
+            "max": 10,
+            "min": 0
+          },
+          {
+            "avg": 3,
+            "day": "2025-08-05",
+            "max": 10,
+            "min": 0
+          }
+        ]
+      }
+    },
+    "debug": {
+      "sync": "2025-08-02T01:17:15+09:00"
+    }
+  }
+}
